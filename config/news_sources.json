@@ -1,0 +1,17 @@
+{
+  "_note": "Free public RSS feeds. URLs come from the publishers' public RSS listings; use Settings -> Data sources -> Test news sources to see which respond on your network. Disable any source with enabled=false. Broad feeds are filtered by symbol/company name; per_symbol feeds use {query}.",
+  "broad": [
+    {"name": "NSE Announcements", "url": "https://nsearchives.nseindia.com/content/RSS/Online_announcements.xml", "kind": "exchange", "enabled": true},
+    {"name": "NSE Corporate Actions", "url": "https://nsearchives.nseindia.com/content/RSS/Corporate_action.xml", "kind": "exchange", "enabled": true},
+    {"name": "NSE Financial Results", "url": "https://nsearchives.nseindia.com/content/RSS/Financial_Results.xml", "kind": "exchange", "enabled": true},
+    {"name": "Economic Times Markets", "url": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms", "kind": "news", "enabled": true},
+    {"name": "Economic Times Stocks", "url": "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms", "kind": "news", "enabled": true},
+    {"name": "Moneycontrol Latest", "url": "https://www.moneycontrol.com/rss/latestnews.xml", "kind": "news", "enabled": true},
+    {"name": "Mint Markets", "url": "https://www.livemint.com/rss/markets", "kind": "news", "enabled": true},
+    {"name": "Business Standard Markets", "url": "https://www.business-standard.com/rss/markets-106.rss", "kind": "news", "enabled": true},
+    {"name": "The Hindu Markets", "url": "https://www.thehindu.com/business/markets/feeder/default.rss", "kind": "news", "enabled": true}
+  ],
+  "per_symbol": [
+    {"name": "Google News", "url": "https://news.google.com/rss/search?q={query}&hl=en-IN&gl=IN&ceid=IN:en", "kind": "news", "enabled": true}
+  ]
+}

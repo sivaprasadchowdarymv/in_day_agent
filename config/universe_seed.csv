@@ -1,0 +1,74 @@
+symbol,name,sector,series
+RELIANCE,Reliance Industries,ENERGY,EQ
+ONGC,Oil & Natural Gas Corporation,ENERGY,EQ
+BPCL,Bharat Petroleum Corporation,ENERGY,EQ
+IOC,Indian Oil Corporation,ENERGY,EQ
+GAIL,GAIL (India),ENERGY,EQ
+NTPC,NTPC,ENERGY,EQ
+POWERGRID,Power Grid Corporation of India,ENERGY,EQ
+TATAPOWER,Tata Power Company,ENERGY,EQ
+COALINDIA,Coal India,ENERGY,EQ
+HDFCBANK,HDFC Bank,BANK,EQ
+ICICIBANK,ICICI Bank,BANK,EQ
+SBIN,State Bank of India,BANK,EQ
+KOTAKBANK,Kotak Mahindra Bank,BANK,EQ
+AXISBANK,Axis Bank,BANK,EQ
+INDUSINDBK,IndusInd Bank,BANK,EQ
+BANKBARODA,Bank of Baroda,BANK,EQ
+PNB,Punjab National Bank,BANK,EQ
+CANBK,Canara Bank,BANK,EQ
+FEDERALBNK,Federal Bank,BANK,EQ
+BAJFINANCE,Bajaj Finance,FINSERV,EQ
+BAJAJFINSV,Bajaj Finserv,FINSERV,EQ
+SHRIRAMFIN,Shriram Finance,FINSERV,EQ
+HDFCLIFE,HDFC Life Insurance,FINSERV,EQ
+SBILIFE,SBI Life Insurance,FINSERV,EQ
+JIOFIN,Jio Financial Services,FINSERV,EQ
+RECLTD,REC,FINSERV,EQ
+PFC,Power Finance Corporation,FINSERV,EQ
+TCS,Tata Consultancy Services,IT,EQ
+INFY,Infosys,IT,EQ
+HCLTECH,HCL Technologies,IT,EQ
+WIPRO,Wipro,IT,EQ
+TECHM,Tech Mahindra,IT,EQ
+LTIM,LTIMindtree,IT,EQ
+MARUTI,Maruti Suzuki India,AUTO,EQ
+M&M,Mahindra & Mahindra,AUTO,EQ
+BAJAJ-AUTO,Bajaj Auto,AUTO,EQ
+EICHERMOT,Eicher Motors,AUTO,EQ
+HEROMOTOCO,Hero MotoCorp,AUTO,EQ
+ASHOKLEY,Ashok Leyland,AUTO,EQ
+TVSMOTOR,TVS Motor Company,AUTO,EQ
+SUNPHARMA,Sun Pharmaceutical Industries,PHARMA,EQ
+CIPLA,Cipla,PHARMA,EQ
+DRREDDY,Dr. Reddy's Laboratories,PHARMA,EQ
+DIVISLAB,Divi's Laboratories,PHARMA,EQ
+LUPIN,Lupin,PHARMA,EQ
+APOLLOHOSP,Apollo Hospitals Enterprise,PHARMA,EQ
+HINDUNILVR,Hindustan Unilever,FMCG,EQ
+ITC,ITC,FMCG,EQ
+NESTLEIND,Nestle India,FMCG,EQ
+TATACONSUM,Tata Consumer Products,FMCG,EQ
+BRITANNIA,Britannia Industries,FMCG,EQ
+DABUR,Dabur India,FMCG,EQ
+TATASTEEL,Tata Steel,METAL,EQ
+JSWSTEEL,JSW Steel,METAL,EQ
+HINDALCO,Hindalco Industries,METAL,EQ
+VEDL,Vedanta,METAL,EQ
+SAIL,Steel Authority of India,METAL,EQ
+NMDC,NMDC,METAL,EQ
+DLF,DLF,REALTY,EQ
+GODREJPROP,Godrej Properties,REALTY,EQ
+LT,Larsen & Toubro,INFRA,EQ
+ADANIPORTS,Adani Ports and SEZ,INFRA,EQ
+ADANIENT,Adani Enterprises,INFRA,EQ
+ULTRACEMCO,UltraTech Cement,INFRA,EQ
+GRASIM,Grasim Industries,INFRA,EQ
+BEL,Bharat Electronics,INFRA,EQ
+HAL,Hindustan Aeronautics,INFRA,EQ
+BHARTIARTL,Bharti Airtel,MEDIA,EQ
+TITAN,Titan Company,CONSUMER,EQ
+ASIANPAINT,Asian Paints,CONSUMER,EQ
+TRENT,Trent,CONSUMER,EQ
+ETERNAL,Eternal,CONSUMER,EQ
+IRCTC,Indian Railway Catering and Tourism,CONSUMER,EQ
