@@ -13,3 +13,4 @@ requests>=2.32,<3
 feedparser==6.0.14
 python-dotenv>=1.0,<2
 pytest>=8,<10
+psycopg[binary]>=3.2,<4   # only used when DATABASE_URL points to PostgreSQL

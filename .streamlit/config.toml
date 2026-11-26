@@ -1,0 +1,10 @@
+[server]
+headless = true
+maxUploadSize = 8          # MB, matches BT_MAX_UPLOAD_MB
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"

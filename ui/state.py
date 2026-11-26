@@ -13,6 +13,7 @@ from config.settings import Settings, load_settings
 def init_app() -> None:
     if st.session_state.get("_init"):
         return
+    _secrets_to_env()
     base = load_settings()
     setup_logging(base.app.log_level)
     from database.db import init_db, load_saved_settings
@@ -40,6 +41,18 @@ def init_app() -> None:
 
         configure_tesseract(tcmd)
     st.session_state["_init"] = True
+
+
+def _secrets_to_env() -> None:
+    """Cloud hosting: copy top-level Streamlit secrets (e.g. GEMINI_API_KEY, DATABASE_URL)
+    into environment variables so the app reads them the same way as a local .env.
+    Values are never displayed or logged."""
+    try:
+        for k, v in st.secrets.items():
+            if isinstance(v, (str, int, float, bool)) and not os.getenv(k):
+                os.environ[k] = str(v)
+    except Exception:  # noqa: BLE001 - no secrets file is normal locally
+        pass
 
 
 def settings() -> Settings:

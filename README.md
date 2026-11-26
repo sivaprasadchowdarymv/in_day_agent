@@ -228,4 +228,6 @@ bharattrade_ai/
 
 Implement `brokers/base.py::MarketDataProvider` (`get_candles`, `get_quote`) for any official broker API. Then register it in `brokers/factory.py`. Strategies, ranking and the UI do not change. Live order placement is intentionally not implemented.
 
+**Cloud hosting:** see `docs/DEPLOYMENT.md` for Streamlit Community Cloud (free) and Docker.
+
 See also: `docs/ARCHITECTURE.md`, `docs/STRATEGIES.md`, `docs/BACKTESTING.md`, `docs/PAPER_TRADING.md`, `docs/DATA_SOURCES.md`, `docs/SCREENSHOT_AI_SETUP.md`, `docs/TROUBLESHOOTING.md`.
